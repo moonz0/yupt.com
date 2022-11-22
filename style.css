@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  
+  body{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+     background-color: #54777b;
+  }
+
+#bgimg {
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.title h2{
+	color: rgb(255, 255, 255);
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+	height: 395px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+    grid-template-areas: "img" "text" "stats";
+    font-family: 'franklin Gothic';
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    transition: all 0.5s ease;
+
+}
+
+.card:hover{
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+}
+.card i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #4a4a4a;
+}
+h5{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;	
+}
+.pra p{
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+
+.card .button{
+	background-color: #686868;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s;
+}
+.card .button:hover{
+	background-color: transparent;
+	border: 2px solid #ffffff;
+	cursor: pointer;
+}
+.service {
+
+  width: 100%;
+  height: 100%;
+}
+.textes{
+  border: 1px solid #191919;
+  font-family: 'Times New Roman', Times, serif;  
+  width: 50%;
+  margin-left: 25%;
+  background-color: #54777b;
+  width: 100%;
+  height: 100%;
+}
+
+.container-2{
+  width: 85%;
+  height: 85%;
+  background-color: #54777b;
+	display : flex;
+  padding: 40px;
+  margin: 10rem auto 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    border: 1px solid black;
+    background: #191919;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+      font-family: 'franklin Gothic';
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
+ 
+
+}
+#text{
+  justify-content: space-between;
+
+}
+.imgpla{
+  height: 300px;
+  width: 400px;
+}
+
+p{
+  font-size: 25px;
+}
+
+ footer{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer p{
+  font-size: 30px;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.social{
+  display: flex;
+}
+.social i{
+  width: 65px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 22px 10px;
+  color: white;
+  text-decoration: none;
+}
+  
+
+  
